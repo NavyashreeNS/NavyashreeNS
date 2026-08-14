@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:b4571f,50:c97b3f,100:2f5d8c&height=200&section=header&text=Navyashree%20N&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Research%20Engineer%20%C2%B7%20ML%20%26%20GPU%20Systems&descAlignY=58&descSize=18" width="100%" alt="Navyashree N" />
+# Navyashree N
 
 <a href="https://navyahtic.github.io">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3400&pause=900&color=B4571F&center=true&vCenter=true&width=680&lines=A+millimetre+is+the+tolerance.;Ten+milliseconds+is+the+whole+budget.;I+build+systems+for+the+operating+room." alt="A millimetre is the tolerance. Ten milliseconds is the whole budget." />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2600&pause=800&color=B4571F&center=true&vCenter=true&width=640&height=45&lines=Research+Engineer;Software+Engineer;Machine+Learning+Engineer;GPU+Systems+Engineer" alt="Research Engineer / Software Engineer / Machine Learning Engineer / GPU Systems Engineer" />
 </a>
+
+**ML &amp; GPU Systems** · IIT Madras Healthcare Technology Innovation Centre
 
 <br />
 
@@ -259,6 +261,8 @@ And counting doses isn't enough: three doses finished at 14 weeks is *not* prote
 
 [![Portfolio](https://img.shields.io/badge/Read_the_full_portfolio-navyahtic.github.io-b4571f?style=for-the-badge&labelColor=1c1a16)](https://navyahtic.github.io)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2f5d8c,50:c97b3f,100:b4571f&height=120&section=footer" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3" alt="" />
+
+<sub>Thanks for reading. ⭐ a repo if something here was useful.</sub>
 
 </div>
