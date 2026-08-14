@@ -1,46 +1,98 @@
 <div align="center">
 
-# Navyashree N
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:b4571f,50:c97b3f,100:2f5d8c&height=200&section=header&text=Navyashree%20N&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=Research%20Engineer%20%C2%B7%20ML%20%26%20GPU%20Systems&descAlignY=58&descSize=18" width="100%" alt="Navyashree N" />
 
-### 🔬 Research Engineer — ML & GPU Systems
+<a href="https://navyahtic.github.io">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3400&pause=900&color=B4571F&center=true&vCenter=true&width=680&lines=A+millimetre+is+the+tolerance.;Ten+milliseconds+is+the+whole+budget.;I+build+systems+for+the+operating+room." alt="A millimetre is the tolerance. Ten milliseconds is the whole budget." />
+</a>
 
-**I build systems for the operating room, where a millimetre is the tolerance and ten milliseconds is the whole budget.**
+<br />
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-navyahtic.github.io-b4571f?style=for-the-badge&logo=firefox&logoColor=white)](https://navyahtic.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/navyashree-n-7bbab2280/)
-[![Email](https://img.shields.io/badge/Email-Get_in_touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:navyashreensgr@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-navyahtic.github.io-b4571f?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=1c1a16)](https://navyahtic.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1c1a16)](https://www.linkedin.com/in/navyashree-n-7bbab2280/)
+[![Email](https://img.shields.io/badge/Email-Say_hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1c1a16)](mailto:navyashreensgr@gmail.com)
+[![Followers](https://img.shields.io/github/followers/NavyashreeNS?style=for-the-badge&color=b4571f&labelColor=1c1a16&logo=github)](https://github.com/NavyashreeNS?tab=followers)
 
 </div>
 
----
+<br />
 
-## 🧠 About
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3" alt="" />
 
-Project Associate at **IIT Madras' Healthcare Technology Innovation Centre**, building the GPU morphing stack for **imageless total knee arthroplasty** — reconstructing a patient's femur and tibia from points swept with a probe in theatre, instead of from a CT taken days earlier. The reconstruction has to land inside half a millimetre and finish inside a single surgical frame.
+## `~/whoami`
 
-Most of what I've learned came from **replacing something that already worked**. The bone-synthesis pipeline I inherited ran on a thin-plate-spline formulation from 1989. It hit its landmarks and shrank the bone by two thirds. Rebuilding it around Bayesian Coherent Point Drift meant reading the 1989 paper closely enough to understand *why* it was written that way — then writing 89 tests, including one that checks the output is byte-identical run to run, because in a surgical pipeline reproducibility is a safety property rather than a nicety.
+```
+Project Associate  ·  IIT Madras Healthcare Technology Innovation Centre
+Building the GPU morphing stack for imageless total knee arthroplasty.
+```
 
-Before the research work I spent a year shipping applied ML — always taken past the notebook and served behind a real API, because a model nobody can call is a model nobody uses. **That habit is the throughline.** I like the part of the job where a result becomes a thing that runs.
+I reconstruct a patient's femur and tibia from points a surgeon sweeps with a probe **in theatre** — instead of from a CT taken days earlier. No scan, no wait, no radiation dose. The reconstruction has to land inside **half a millimetre** and finish inside **a single surgical frame**.
 
-- 🎓 **B.E. Computer Science**, VTU Bengaluru — CGPA 9+ / 10, Class of 2026
-- 📍 Chennai & Bengaluru, India
-- 🔭 Currently: GPU-accelerated surgical navigation at IITM HTIC
-- 🌱 Open to software and ML engineering roles
+> **Most of what I've learned came from replacing something that already worked.**
+>
+> The bone-synthesis pipeline I inherited ran on a thin-plate-spline formulation from **1989**. It hit its landmarks — and shrank the bone by two thirds. Rebuilding it around Bayesian Coherent Point Drift meant reading that 1989 paper closely enough to understand *why* it was written that way, then writing **89 tests** including one that checks the output is byte-identical run to run.
+>
+> In a surgical pipeline, reproducibility is a safety property. Not a nicety.
 
----
+Before the research work I spent a year shipping applied ML — always taken past the notebook and served behind a real API, **because a model nobody can call is a model nobody uses.** That habit is the throughline. I like the part of the job where a result becomes a thing that runs.
 
-## 🚀 Projects
+<table>
+<tr>
+<td>🎓</td><td><b>B.E. Computer Science</b> — VTU Bengaluru · CGPA 9+/10 · Class of 2026</td>
+</tr>
+<tr>
+<td>📍</td><td>Chennai &amp; Bengaluru, India</td>
+</tr>
+<tr>
+<td>🔬</td><td>Currently: CUDA · Holoscan SDK · neural signed distance fields</td>
+</tr>
+<tr>
+<td>💬</td><td>Ask me about GPU pipelines, point-set registration, or why your test suite should include a determinism check</td>
+</tr>
+<tr>
+<td>🌱</td><td><b>Open to software and ML engineering roles</b></td>
+</tr>
+</table>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3" alt="" />
+
+## `~/toolkit`
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,cpp,ts,js,java,mysql&theme=dark" alt="Python, C++, TypeScript, JavaScript, Java, SQL" />
+<br />
+<img src="https://skillicons.dev/icons?i=pytorch,sklearn,fastapi,flask,nextjs,react,tailwind,supabase,postgres,aws,git,cmake&theme=dark" alt="PyTorch, scikit-learn, FastAPI, Flask, Next.js, React, Tailwind, Supabase, Postgres, AWS, Git, CMake" />
+
+<br /><br />
+
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Holoscan SDK](https://img.shields.io/badge/Holoscan_SDK-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Neural SDF](https://img.shields.io/badge/Neural_SDF-b4571f?style=flat-square)
+![Point-set registration](https://img.shields.io/badge/Point--set_registration-b4571f?style=flat-square)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![RAG](https://img.shields.io/badge/Embeddings_%26_RAG-2f5d8c?style=flat-square)
+
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3" alt="" />
+
+## `~/projects`
+
+> Six repositories. **419 tests.** Every number below is measured and reproducible by cloning.
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 🎓 [AI Tutor](https://github.com/NavyashreeNS/ai-tutor)
-**A Socratic engine that will not give you the answer.**
+> *A Socratic engine that will not give you the answer.*
 
-Grounded in a knowledge dependency graph, so it knows exactly what it's withholding. When you get something wrong it works out *which* of 33 named misconceptions produced that answer, then asks the question designed to break it.
+Ask an LLM to tutor and it answers the question — exactly the wrong behaviour. This one is grounded in a **knowledge dependency graph**, so it knows precisely what it's withholding.
 
-`18 concepts` · `28 edges` · `95 tests`
+Get something wrong and it works out *which* of **33 named misconceptions** produced that answer, then asks the question built to break it.
+
+`18 concepts` `28 edges` `95 tests`
 
 <sub>**TypeScript** · Next.js 15 · Bayesian Knowledge Tracing</sub>
 
@@ -48,49 +100,55 @@ Grounded in a knowledge dependency graph, so it knows exactly what it's withhold
 <td width="50%" valign="top">
 
 ### 🌱 [EcoEcho](https://github.com/NavyashreeNS/ecoecho)
-**Native planting from your actual conditions.**
+> *Planting advice from your conditions, not your postcode.*
 
-Retrieval over a pgvector index rather than a lookup table keyed on a region name — then re-ranked against live weather at your coordinates, because similarity alone recommends a tree that needs 2000mm to someone with 450mm.
+Most tools are a lookup table keyed on a region name. This retrieves over a **pgvector index** and folds live weather at your coordinates into the query.
 
-`16 species` · `384-dim` · `55 tests`
+Then re-ranks against each species' real climate envelope — because similarity alone happily recommends a tree needing 2000mm to someone with 450mm.
+
+`16 species` `384-dim` `55 tests`
 
 <sub>**Next.js 15** · Supabase · pgvector · Clerk</sub>
 
 </td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 [Applied ML Project Set](https://github.com/NavyashreeNS/applied-ml-project-set)
-**Three models past the notebook, each served over HTTP.**
+### ♿ [RFID Navigation Assistant](https://github.com/NavyashreeNS/AI-RFID-Navigation-Assistant)
+> *Indoor wayfinding for visually impaired users.*
 
-Spam classification at **99.5% accuracy**, car price regression cross-validated on 201 rows, and a housing model that scores R² 0.81 on a random split and **−0.13** on a geographically blocked one — the most useful result in the repo.
+The radio isn't the hard part. A **C++ layer** collapses 215 raw reads into 8 arrivals; routing knows a staircase from a corridor; and the announcement policy decides when to **stay quiet** — because a device that narrates constantly gets switched off.
+
+`80 Python tests` `45 C++ checks`
+
+<sub>**C++17** · Python · accessibility-aware Dijkstra</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 [Applied ML Set](https://github.com/NavyashreeNS/applied-ml-project-set)
+> *Three models past the notebook, each served over HTTP.*
+
+Spam classification at **99.5%** accuracy (1 false positive in 966). Car prices cross-validated on 201 rows.
+
+And a housing model scoring **R² 0.81** on a random split — **−0.13** on a geographically blocked one. That negative result is the most useful thing in the repo, and it ships in every API response.
 
 `39 tests` · Flask + FastAPI
 
 <sub>**Python** · scikit-learn · pandas</sub>
 
 </td>
-<td width="50%" valign="top">
-
-### ♿ [AI-RFID Navigation Assistant](https://github.com/NavyashreeNS/AI-RFID-Navigation-Assistant)
-**Indoor wayfinding for visually impaired users.**
-
-The radio isn't the hard part. A C++ layer debounces 215 raw reads into 8 arrivals, routing knows a staircase from a corridor, and the announcement policy decides when to *stay quiet*.
-
-`80 Python tests` · `45 C++ checks`
-
-<sub>**C++17** · Python · accessibility-aware Dijkstra</sub>
-
-</td>
 </tr>
+
 <tr>
 <td width="50%" valign="top">
 
 ### 🔋 [EV Energy Recovery](https://github.com/NavyashreeNS/ev-efficiency-dc-generator)
-**How much range does a 2.5 kW generator really recover?**
+> *What does a 2.5 kW generator actually recover?*
 
-**22.5%** on an urban cycle — and modelling *why it isn't more* is the finding. Peak braking hits 32 kW against a 2.5 kW rating, so half of all braking time is spent above what the machine can absorb.
+**22.5%** more range on an urban cycle — and modelling *why it isn't more* is the finding. Peak braking hits **32 kW** against a 2.5 kW rating, so half of all braking time is spent above what the machine can absorb.
 
 `84 tests` · full energy ledger
 
@@ -100,9 +158,11 @@ The radio isn't the hard part. A C++ layer debounces 215 raw reads into 8 arriva
 <td width="50%" valign="top">
 
 ### 🐾 [PetCare](https://github.com/NavyashreeNS/your_first_kid)
-**Vaccination schedules that shift when a dose is late.**
+> *Schedules that shift when a dose is late.*
 
-A schedule is a series of *dependent intervals*, not a list of dates. Counting doses isn't enough either — three doses finished at 14 weeks is not protection, and the app says so.
+A vaccination schedule isn't a list of dates — it's a series of **dependent intervals**.
+
+And counting doses isn't enough: three doses finished at 14 weeks is *not* protection, because maternal antibodies still block the vaccine. The app says so, in words.
 
 `66 tests` · zero dependencies
 
@@ -112,96 +172,93 @@ A schedule is a series of *dependent intervals*, not a list of dates. Counting d
 </tr>
 </table>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3" alt="" />
 
-## 🛠️ Tech Stack
+## `~/by-the-numbers`
 
 <div align="center">
 
-**Languages**
+| Share | Language | Where it lives |
+|:---:|:---|:---|
+| **44%** | 🐍 Python | Applied ML · EV Recovery · RFID Navigation |
+| **34%** | 🔷 TypeScript | AI Tutor · EcoEcho |
+| **13%** | 🟨 JavaScript | PetCare |
+| **5%** | ⚙️ C++ | RFID reader firmware |
+| **4%** | 🎨 CSS · SQL · HTML · CMake | Styling · pgvector schema · build |
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+**419 tests** across six repositories — `95` · `84` · `80` · `66` · `55` · `39`, plus **45** C++ checks.
 
-**GPU & Systems**
-
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Holoscan](https://img.shields.io/badge/Holoscan_SDK-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
-
-**Machine Learning**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-
-**Backend & Data**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Web & Cloud**
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+<sub>Measured from 559 KB of source via the GitHub API — not estimated.</sub>
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3" alt="" />
 
-## 💼 Experience
+## `~/experience`
 
-**Project Associate** · *IITM HTIC MedTech Incubator, IIT Madras* · Chennai · Jun 2026 – Present
-> GPU morphing stack for imageless total knee arthroplasty navigation — neural signed distance fields, Gaussian RBF field-space warping, and a Holoscan operator graph that closes the loop inside a single surgical frame. Moved bone synthesis off a 1989 thin-plate-spline formulation onto Bayesian Coherent Point Drift, shipped as drop-in executables so the surgical software adopted it without a single call-site change.
+<details open>
+<summary><b>🔬 Project Associate</b> — IITM HTIC MedTech Incubator, IIT Madras · <i>Jun 2026 – Present</i></summary>
 
-**Project Intern** · *IITM HTIC, IIT Madras* · Feb 2026 – Jun 2026
-> Prototyped and benchmarked the real-time bone morphing algorithms behind the team's MICCAI 2026 workshop submission.
+<br />
 
-**Data Science Intern** · *Oasis Infobyte* · Mar 2025 – Jul 2025
-> Three end-to-end ML projects, each taken past the notebook and served behind a REST API. Reproducibility as the deliverable.
+- Own the **GPU morphing stack** behind an imageless total knee arthroplasty navigation system — neural signed distance fields, Gaussian RBF field-space warping, and a Holoscan operator graph that closes the loop inside a single surgical frame
+- Moved bone synthesis off a **1989 thin-plate-spline** formulation onto **Bayesian Coherent Point Drift**, shipped as drop-in replacement executables so the surgical software adopted it without a single call-site change
+- Hold numerical work to a test suite rather than a demo: **89 tests** including byte-identical determinism runs, validated against ~20,000 technician-swept surface points
 
----
+`CUDA` `Holoscan SDK` `Neural SDF` `C++` `Python`
 
-## 🏆 Highlights
+</details>
 
-- 🥈 **Runner-Up, Paper Presentation** — ICRCCT 2K24, for temporal graph neural network work on predictive maintenance
-- 🎖️ **Young Turks 2025** — 96.32nd percentile, India's largest campus skill contest
-- 🌟 **Aspire Leaders Program 2025** — selected cohort, Aspire Institute (founded by Harvard Business School faculty)
-- 📜 **Oracle Certified Generative AI Professional** · **UiPath Automation Developer Associate** · **AWS Academy Cloud Foundations & Cloud Security**
-- 👩‍💻 Google Developer Group member · SHEfi Scholar · GSSoC open-source contributor
+<details>
+<summary><b>🧪 Project Intern</b> — IITM HTIC, IIT Madras · <i>Feb 2026 – Jun 2026</i></summary>
 
----
+<br />
+
+- Prototyped and benchmarked the real-time bone morphing algorithms behind the team's **MICCAI 2026 workshop** submission
+- Built the Holoscan SDK operator graph for GPU scheduling, keeping the intraoperative path free of host round-trips
+
+`CUDA` `PyTorch` `Benchmarking`
+
+</details>
+
+<details>
+<summary><b>📊 Data Science Intern</b> — Oasis Infobyte · <i>Mar 2025 – Jul 2025</i></summary>
+
+<br />
+
+- Shipped three end-to-end ML projects — spam classification, price regression, housing pipeline — each taken **past the notebook** and served behind a REST API
+- Treated reproducibility as the deliverable: every submission documented, re-runnable, and under version control
+
+`scikit-learn` `Flask` `FastAPI` `pandas`
+
+</details>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3" alt="" />
+
+## `~/highlights`
+
+<table>
+<tr><td>🥈</td><td><b>Runner-Up — Paper Presentation</b><br /><sub>ICRCCT 2K24 · temporal graph neural networks for predictive maintenance · ADVAYA trophy</sub></td></tr>
+<tr><td>🎖️</td><td><b>Young Turks 2025 — Certificate of Merit</b><br /><sub>96.32nd percentile in India's largest campus skill contest</sub></td></tr>
+<tr><td>🌟</td><td><b>Aspire Leaders Program 2025</b><br /><sub>Selected cohort · Aspire Institute, founded by Harvard Business School faculty</sub></td></tr>
+<tr><td>📜</td><td><b>Oracle Certified Generative AI Professional</b> · <b>UiPath Automation Developer Associate</b><br /><sub>AWS Academy — Cloud Foundations &amp; Cloud Security Foundations</sub></td></tr>
+<tr><td>👩‍💻</td><td><b>Google Developer Group</b> member · <b>SHEfi</b> Scholar · <b>GSSoC</b> open-source contributor</td></tr>
+</table>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="3" alt="" />
 
 <div align="center">
 
-### 📊 What's in these repos
+## `~/activity`
 
-| Share | Language | Where |
-|---|---|---|
-| 🟦 **44%** | Python | Applied ML · EV Recovery · RFID Navigation |
-| 🟦 **34%** | TypeScript | AI Tutor · EcoEcho |
-| 🟨 **13%** | JavaScript | PetCare |
-| 🟥 **5%** | C++ | RFID reader firmware |
-| ⬜ **4%** | CSS · SQL · HTML · CMake | styling · pgvector schema · build |
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NavyashreeNS&bg_color=1c1a16&color=e8dfd3&line=b4571f&point=e08a4c&area=true&area_color=b4571f&hide_border=true&custom_title=Contribution%20activity" width="100%" alt="Contribution activity" />
 
-**419 tests across six repositories** — 95 · 84 · 80 · 66 · 55 · 39, plus 45 C++ checks.
+<br /><br />
 
-[![Followers](https://img.shields.io/github/followers/NavyashreeNS?style=for-the-badge&color=b4571f&labelColor=1c1a16)](https://github.com/NavyashreeNS?tab=followers)
-[![Stars](https://img.shields.io/github/stars/NavyashreeNS?style=for-the-badge&color=b4571f&labelColor=1c1a16)](https://github.com/NavyashreeNS?tab=repositories)
+### Currently open to software and ML engineering roles
 
----
+[![Portfolio](https://img.shields.io/badge/Read_the_full_portfolio-navyahtic.github.io-b4571f?style=for-the-badge&labelColor=1c1a16)](https://navyahtic.github.io)
 
-**Currently open to software and ML engineering roles.**
-
-[![Portfolio](https://img.shields.io/badge/See_the_full_portfolio-navyahtic.github.io-b4571f?style=for-the-badge)](https://navyahtic.github.io)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2f5d8c,50:c97b3f,100:b4571f&height=120&section=footer" width="100%" alt="" />
 
 </div>
