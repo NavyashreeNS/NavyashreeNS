@@ -183,10 +183,20 @@ A schedule is a series of *dependent intervals*, not a list of dates. Counting d
 
 <div align="center">
 
-### 📊 GitHub
+### 📊 What's in these repos
 
-![Stats](https://github-readme-stats.vercel.app/api?username=NavyashreeNS&show_icons=true&hide_border=true&count_private=true&title_color=b4571f&icon_color=b4571f&hide=issues)
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NavyashreeNS&layout=compact&hide_border=true&title_color=b4571f&langs_count=8)
+| Share | Language | Where |
+|---|---|---|
+| 🟦 **44%** | Python | Applied ML · EV Recovery · RFID Navigation |
+| 🟦 **34%** | TypeScript | AI Tutor · EcoEcho |
+| 🟨 **13%** | JavaScript | PetCare |
+| 🟥 **5%** | C++ | RFID reader firmware |
+| ⬜ **4%** | CSS · SQL · HTML · CMake | styling · pgvector schema · build |
+
+**419 tests across six repositories** — 95 · 84 · 80 · 66 · 55 · 39, plus 45 C++ checks.
+
+[![Followers](https://img.shields.io/github/followers/NavyashreeNS?style=for-the-badge&color=b4571f&labelColor=1c1a16)](https://github.com/NavyashreeNS?tab=followers)
+[![Stars](https://img.shields.io/github/stars/NavyashreeNS?style=for-the-badge&color=b4571f&labelColor=1c1a16)](https://github.com/NavyashreeNS?tab=repositories)
 
 ---
 
