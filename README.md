@@ -203,9 +203,7 @@ And counting doses isn't enough: three doses finished at 14 weeks is *not* prote
 
 <br />
 
-- Own the **GPU morphing stack** behind an imageless total knee arthroplasty navigation system — neural signed distance fields, Gaussian RBF field-space warping, and a Holoscan operator graph that closes the loop inside a single surgical frame
-- Moved bone synthesis off a **1989 thin-plate-spline** formulation onto **Bayesian Coherent Point Drift**, shipped as drop-in replacement executables so the surgical software adopted it without a single call-site change
-- Hold numerical work to a test suite rather than a demo: **89 tests** including byte-identical determinism runs, validated against ~20,000 technician-swept surface points
+- worked on the **GPU morphing stack** behind an imageless total knee arthroplasty navigation system — neural signed distance fields, Gaussian RBF field-space warping, and a Holoscan operator graph that closes the loop inside a single surgical frame.
 
 `CUDA` `Holoscan SDK` `Neural SDF` `C++` `Python`
 
@@ -215,8 +213,6 @@ And counting doses isn't enough: three doses finished at 14 weeks is *not* prote
 <summary><b>🧪 Project Intern</b> — IITM HTIC, IIT Madras · <i>Feb 2026 – Jun 2026</i></summary>
 
 <br />
-
-- Prototyped and benchmarked the real-time bone morphing algorithms behind the team's **MICCAI 2026 workshop** submission
 - Built the Holoscan SDK operator graph for GPU scheduling, keeping the intraoperative path free of host round-trips
 
 `CUDA` `PyTorch` `Benchmarking`
