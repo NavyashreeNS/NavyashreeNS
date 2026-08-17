@@ -28,14 +28,6 @@ Project Associate  ·  IIT Madras Healthcare Technology Innovation Centre
 Building the GPU morphing stack for imageless total knee arthroplasty.
 ```
 
-I reconstruct a patient's femur and tibia from points a surgeon sweeps with a probe **in theatre** — instead of from a CT taken days earlier. No scan, no wait, no radiation dose. The reconstruction has to land inside **half a millimetre** and finish inside **a single surgical frame**.
-
-> **Most of what I've learned came from replacing something that already worked.**
->
-> The bone-synthesis pipeline I inherited ran on a thin-plate-spline formulation from **1989**. It hit its landmarks — and shrank the bone by two thirds. Rebuilding it around Bayesian Coherent Point Drift meant reading that 1989 paper closely enough to understand *why* it was written that way, then writing **89 tests** including one that checks the output is byte-identical run to run.
->
-> In a surgical pipeline, reproducibility is a safety property. Not a nicety.
-
 Before the research work I spent a year shipping applied ML — always taken past the notebook and served behind a real API, **because a model nobody can call is a model nobody uses.** That habit is the throughline. I like the part of the job where a result becomes a thing that runs.
 
 <table>
