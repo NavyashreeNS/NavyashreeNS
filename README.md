@@ -73,9 +73,40 @@ Before the research work I spent a year shipping applied ML — always taken pas
 
 ## `~/projects`
 
-> Six repositories. **419 tests.** Every number below is measured and reproducible by cloning.
+> Eight repositories. **625 tests.** Every number below is measured and reproducible by cloning.
 
 <table>
+<tr>
+<td width="50%" valign="top">
+
+### ⚡ [warpsmith](https://github.com/NavyashreeNS/warpsmith)
+> *Thirty-four CUDA kernels, taken past NVIDIA's own library.*
+
+The same matrix multiply written **nine times**, each version adding exactly one optimization — so the gap between two rows measures that technique rather than describing it.
+
+The largest single win was **5.6×**, from swapping which thread index maps to the row. No new maths: just letting a warp read 128 contiguous bytes instead of 32 scattered ones.
+
+`114% of cuBLAS` `48× vs naive` `0 failures in 79 measurements`
+
+<sub>**CUDA C++** · cuBLAS · CUB · WMMA/TF32 · CMake</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 🎛️ [Halcyon](https://github.com/NavyashreeNS/halcyon)
+> *An inference control plane that schedules for deadlines, not throughput.*
+
+Batching, routing, admission and rollout as **one** scheduling problem. Batch size is emergent rather than configured, and work that provably cannot make its deadline is shed in microseconds.
+
+Below saturation it ties fixed batching — and the repo says so plainly. Past saturation it holds **16×** the goodput.
+
+`16× goodput` `159 tests` `live fleet in CI`
+
+<sub>**TypeScript** · Node ≥20 · discrete-event simulation</sub>
+
+</td>
+</tr>
+
 <tr>
 <td width="50%" valign="top">
 
@@ -174,15 +205,16 @@ And counting doses isn't enough: three doses finished at 14 weeks is *not* prote
 
 | Share | Language | Where it lives |
 |:---:|:---|:---|
-| **44%** | 🐍 Python | Applied ML · EV Recovery · RFID Navigation |
-| **34%** | 🔷 TypeScript | AI Tutor · EcoEcho |
-| **13%** | 🟨 JavaScript | PetCare |
-| **5%** | ⚙️ C++ | RFID reader firmware |
-| **4%** | 🎨 CSS · SQL · HTML · CMake | Styling · pgvector schema · build |
+| **44%** | 🔷 TypeScript | AI Tutor · EcoEcho · Halcyon |
+| **26%** | 🐍 Python | Applied ML · EV Recovery · RFID Navigation · warpsmith tooling |
+| **14%** | 🟩 CUDA | warpsmith |
+| **8%** | 🟨 JavaScript | PetCare · Halcyon fleet scripts |
+| **3%** | ⚙️ C++ | RFID reader firmware |
+| **5%** | 🎨 CSS · SQL · HTML · CMake · HCL | Styling · pgvector schema · build · infra |
 
-**419 tests** across six repositories — `95` · `84` · `80` · `66` · `55` · `39`, plus **45** C++ checks.
+**625 tests** across eight repositories — `159` · `95` · `84` · `80` · `66` · `55` · `47` · `39`, plus **45** C++ checks.
 
-<sub>Measured from 559 KB of source via the GitHub API — not estimated.</sub>
+<sub>Measured from 1.1 MB of source via the GitHub API — not estimated.</sub>
 
 </div>
 
